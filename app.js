@@ -11,8 +11,13 @@ var app = express();
 
 //use mongoose to connect to mongoDB
 var mongoose = require('mongoose');
+/*mongoose.Promise = require('bluebird');
+var options = { promiseLibrary: require('bluebird') };
+app.db = mongoose.createConnection(globals.db, options);
+app.db.on('open', function () {
+	
+});*/
 var conn = mongoose.connection;
-
 conn.open(globals.db);
 
 // view engine setup
@@ -48,8 +53,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(4000, function () {
+  console.log('Example app listening on port 4000!');
 });
 
 module.exports = app;

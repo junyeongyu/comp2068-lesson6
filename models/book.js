@@ -1,5 +1,6 @@
 "use strict";
 let mongoose = require('mongoose');
+//let app = require('../app');
 
 // create book schema (class)
 var bookSchema = new mongoose.Schema({
@@ -23,3 +24,4 @@ var bookSchema = new mongoose.Schema({
 
 // make it public
 module.exports = mongoose.model('Book', bookSchema);
+//module.exports = app.db.model('book-promises', bookSchema);

@@ -1,6 +1,6 @@
 
 
-# Lesson5
+# Lesson6
 
 
 
@@ -18,4 +18,4 @@ Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
 
 Nodeclipse is free open-source project that grows with your contributions.
-# comp2068-lesson5
+# comp2068-lesson6
